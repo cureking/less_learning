@@ -1,0 +1,13 @@
+.zmj {
+  width: 140px;
+  height: 46px;
+  float: left;
+  margin: 0;
+  border: 1px solid #CCCCCC;
+  border-left: none;
+  background-color: white;
+}
+.zmj:hover {
+  background-color: #337AB7;
+  color: #ffffff;
+}

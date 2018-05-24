@@ -1,0 +1,13 @@
+.jsy {
+  width: 146px;
+  height: 46px;
+  float: left;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.jsy:hover {
+  background: #337ab7;
+  color: #ffffff;
+}

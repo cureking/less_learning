@@ -1,0 +1,14 @@
+.dmx {
+  float: left;
+  width: 140px;
+  height: 46px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dmx:hover {
+  background: #337ab7;
+  color: #ffffff;
+}

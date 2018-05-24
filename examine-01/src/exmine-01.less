@@ -1,0 +1,40 @@
+
+@border-length-small : 1px;
+@width-small : 200px;
+@font-size-small : 18px;
+
+@border-length-middle : 2px;
+@width-middle : 300px;
+@font-size-middle : 30px;
+
+@border-length-big : 4px;
+@width-big : 250px;
+@font-size-big : 42px;
+
+.fontsize(@size) when (@size="small"){
+	border    : @border-length-small solid black;
+	width     : @width-small;
+	font-size : @font-size-small;
+}
+.fontsize(@size) when (@size="middle"){
+	border    : @border-length-middle solid black;
+	width     : @width-middle;
+	font-size : @font-size-middle;
+}
+.fontsize(@size) when (@size="big"){
+	border    : @border-length-big solid black;
+	width     : @width-big;
+	font-size : @font-size-big;
+}
+
+
+.input{
+	.fontsize("middle");
+	display   : inline-block;
+}
+
+
+//.div1{
+//	.myClass-black(red);
+//}
+
