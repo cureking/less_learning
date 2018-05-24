@@ -1,0 +1,73 @@
+.myClass-small(@border-length-small:1px ,@width-small:200px,@font-size-small:18px){
+	border    : @border-length-small solid black;
+	display   : inline-block;
+	width     : @width-small;
+	font-size : @font-size-small;
+}
+.myClassv-small( @height-small:30px){
+	height:@height-small ;
+}
+
+.myClass-middle(@border-length-middle : 2px,@width-middle : 300px,@font-size-middle : 30px){
+	border    : @border-length-middle solid black;
+	display   : inline-block;
+	width     : @width-middle;
+	font-size : @font-size-middle;
+}
+.myClassv-middle( @height-middle : 60px){
+	height:@height-middle ;
+}
+
+.myClass-big(@border-length-big : 4px,@width-big : 250px,@font-size-big : 42px){
+	border    : @border-length-big solid black;
+	display   : inline-block;
+	width     : @width-big;
+	font-size : @font-size-big;
+}
+.myClassv-big( @height-big : 80px){
+	height:@height-big ;
+}
+
+
+
+.input{
+	.myClassv-small();
+}
+.afterinput{
+	.myClass-small();
+}
+
+
+
+
+//拓展：使用条件语句。
+//
+//@border-length-small : 1px;
+//@width-small : 200px;
+//@font-size-small : 18px;
+//
+//@border-length-middle : 2px;
+//@width-middle : 300px;
+//@font-size-middle : 30px;
+//
+//@border-length-big : 4px;
+//@width-big : 250px;
+//@font-size-big : 42px;
+//
+//.fontsize(@size) when (@size="small"){
+//	border    : @border-length-small solid black;
+//	width     : @width-small;
+//	font-size : @font-size-small;
+//}
+//.fontsize(@size) when (@size="middle"){
+//	border    : @border-length-middle solid black;
+//	width     : @width-middle;
+//	font-size : @font-size-middle;
+//}
+//.fontsize(@size) when (@size="big"){
+//	border    : @border-length-big solid black;
+//	width     : @width-big;
+//	font-size : @font-size-big;
+//}
+
+

@@ -1,0 +1,9 @@
+.input {
+  height: 30px;
+}
+.afterinput {
+  border: 1px solid black;
+  display: inline-block;
+  width: 200px;
+  font-size: 18px;
+}

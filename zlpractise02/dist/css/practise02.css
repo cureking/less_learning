@@ -1,0 +1,62 @@
+.button1 {
+  position: relative;
+  float: left;
+  margin: 0;
+  border-right: 1px solid darkgrey;
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 1px solid darkgrey;
+}
+.button1:hover {
+  background: skyblue;
+}
+.button2 {
+  position: relative;
+  float: left;
+  margin: 0;
+  border-right: 1px solid darkgrey;
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+  padding: 5px;
+}
+.button2:hover {
+  background: skyblue;
+}
+.button3 {
+  position: relative;
+  float: left;
+  margin: 0;
+  border-right: 1px solid darkgrey;
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+  padding: 5px;
+}
+.button3:hover {
+  background: skyblue;
+}
+.button4 {
+  position: relative;
+  float: left;
+  margin: 0;
+  border-right: 1px solid darkgrey;
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.button4:hover {
+  background: skyblue;
+}
+.btitle,
+.bicon {
+  float: left;
+}
+.bicon {
+  position: relative;
+  font-size: 10%;
+  margin: 3px;
+}
