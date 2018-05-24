@@ -1,0 +1,17 @@
+/**
+规则集内的扩展
+ */
+/**
+extend all
+ */
+.a.b.test,
+.test.c,
+.a.b.replacement,
+.replacement.c {
+  color: orange;
+}
+.test:hover,
+.replacement:hover,
+.replacement {
+  color: green;
+}

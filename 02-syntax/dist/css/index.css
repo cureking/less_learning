@@ -1,0 +1,24 @@
+div {
+  -webkit-box-shadow: 5px 5px 2px red;
+  -moz-box-shadow: 5px 5px 2px red;
+  box-shadow: 5px 5px 2px red;
+  -webkit-box-shadow: 5px 5px red #000000;
+  -moz-box-shadow: 5px 5px red #000000;
+  box-shadow: 5px 5px red #000000;
+}
+p {
+  -webkit-box-shadow: 5px 5px 2px green;
+  -moz-box-shadow: 5px 5px 2px green;
+  box-shadow: 5px 5px 2px green;
+  -webkit-box-shadow: 5px 5px green #000000;
+  -moz-box-shadow: 5px 5px green #000000;
+  box-shadow: 5px 5px green #000000;
+}
+span {
+  -webkit-box-shadow: 5px 5px 2px 1px 1px 5px green;
+  -moz-box-shadow: 5px 5px 2px 1px 1px 5px green;
+  box-shadow: 5px 5px 2px 1px 1px 5px green;
+  -webkit-box-shadow: 5px 5px 1px 1px 5px green #000000;
+  -moz-box-shadow: 5px 5px 1px 1px 5px green #000000;
+  box-shadow: 5px 5px 1px 1px 5px green #000000;
+}

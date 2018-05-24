@@ -1,0 +1,31 @@
+// LESS
+//.bag{ content : 'bag'; }
+//.bucket{ content : 'bucket'; }
+//.big-division,
+//.big-bag:extend(.bag),
+//.big-bucket:extend(.bucket){
+//	content : 'big...';
+//}
+/**
+规则集内的扩展
+ */
+//.bag{ content : 'bag'; }
+//pre:hover,
+//.some-class{
+//	&:extend(.bag);
+//	color : #000;
+//}
+/**
+extend all
+ */
+.a.b.test, .test.c{
+	color : orange;
+}
+.test{
+	&:hover{
+		color : green;
+	}
+}
+.replacement:extend(.test all){ }
+.replacement:extend(.test:hover){ }
+
